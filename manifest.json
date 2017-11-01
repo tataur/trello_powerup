@@ -1,0 +1,20 @@
+{
+  "name": "TPU Debug 1",
+  "details":"Add costs to cards & view the sum in your board bar.",
+  "icon": {
+    "url": "./tpu_logo.svg"
+  },
+  "author": "webrender",
+  "capabilities": [
+    "board-buttons",
+    "callback",
+    "card-badges",
+    "card-buttons",
+	"show-settings"
+  ],
+  "connectors": {
+    "iframe": {
+      "url": "./index.html"
+    }
+  }
+}
